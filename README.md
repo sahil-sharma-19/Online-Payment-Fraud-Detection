@@ -35,4 +35,14 @@ The dataset used in this project is sourced from a publicly available online pay
 
 This rich transactional data allows for supervised learning to detect fraudulent activities based on patterns in transaction type, amount, and account balances.
 
+## Features and Highlights
+
+- **Data Preprocessing:** Maps transaction types to numeric labels and fraud indicators to readable strings for better machine learning compatibility and interpretability.
+- **Feature Selection:** Uses transaction type, transaction amount, and sender’s account balances before and after the transaction for modeling.
+- **Modeling:** Implements a Decision Tree classifier to distinguish fraudulent transactions.
+- **Model Evaluation:** Reports accuracy, precision, recall, F1-score, and confusion matrix to provide a detailed view of model effectiveness.
+- **Visualization:** Includes an interactive donut pie chart to visualize the distribution of transaction types with Plotly Express.
+- **Sample Prediction:** Demonstrates prediction on example transaction data.
+
+
 
