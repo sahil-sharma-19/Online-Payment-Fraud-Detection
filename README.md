@@ -12,3 +12,28 @@ The dataset comprises detailed transactional information including transaction t
 - **Plotly Express** – For creating interactive visualizations (e.g., donut/pie charts).
 - **scikit-learn** – For machine learning tasks such as train-test split, Decision Tree classification, and evaluation.
 - **scikit-learn Metrics** – For model evaluation using accuracy, precision, recall, F1-score, and confusion matrix.
+
+- ## 📂 Data Source
+
+The dataset used in this project is sourced from a publicly available online payments fraud detection dataset, which simulates real-world online financial transactions.
+
+### What the data contains:
+- **Transaction Details:**  
+  - `step`: The time step of the transaction (unit of time elapsed).  
+  - `type`: Type of transaction (e.g., PAYMENT, CASH_OUT, TRANSFER, CASH_IN, DEBIT).  
+  - `amount`: The monetary amount involved in the transaction.  
+  - `nameOrig`: The originator's account ID.  
+  - `oldbalanceOrg`: The starting balance of the originator before the transaction.  
+  - `newbalanceOrig`: The ending balance of the originator after the transaction.  
+  - `nameDest`: The recipient's account ID.  
+  - `oldbalanceDest`: The starting balance of the recipient before the transaction.  
+  - `newbalanceDest`: The ending balance of the recipient after the transaction.  
+
+- **Fraud Labels:**  
+  - `isFraud`: Binary label indicating whether the transaction is fraudulent (1) or legitimate (0).  
+  - `isFlaggedFraud`: Indicator for transactions flagged by the system as fraud (not directly used in this project).  
+
+This rich transactional data allows for supervised learning to detect fraudulent activities based on patterns in transaction type, amount, and account balances.
+
+The dataset is widely used for fraud detection research and is suitable for training, evaluating, and benchmarking machine learning models in the financial security domain.
+
