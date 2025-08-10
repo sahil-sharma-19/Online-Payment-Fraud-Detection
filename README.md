@@ -35,5 +35,4 @@ The dataset used in this project is sourced from a publicly available online pay
 
 This rich transactional data allows for supervised learning to detect fraudulent activities based on patterns in transaction type, amount, and account balances.
 
-The dataset is widely used for fraud detection research and is suitable for training, evaluating, and benchmarking machine learning models in the financial security domain.
 
